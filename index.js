@@ -9,11 +9,11 @@ document.getElementById("submit").addEventListener(
       `https://opentdb.com/api.php?amount=${amount.value}&type=${type.value}`
     );
     const data = await response.json();
-    console.log(data);
+    // console.log(data);
     if (data) {
       ol.innerHTML = "";
       data.results.map((result) => {
-        console.log('result', result)
+        // console.log('result', result)
         const { category, question, correct_answer } = result;
         li = document.createElement("li");
         ol.appendChild(li);
