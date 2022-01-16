@@ -1,0 +1,23 @@
+{
+  "name": "question_trivia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeeeey/question_trivia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zeeeey/question_trivia/issues"
+  },
+  "homepage": "https://zeeeey.github.io/question_trivia",
+  "description": ""
+}
